@@ -1,0 +1,96 @@
+
+html {
+    background-color: #f7b3b3;
+    background-image: url("../html/logo_Wix.jpg");
+}
+
+.head {
+    background-image: url('../html/flower.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:20px 0px;
+
+}
+
+.head h1 {
+    background-color: rgba(0,0,0,0.5);
+    
+    margin: 0px 30px;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.head p {
+    
+    margin: 0px 30px;
+    padding: 5px 10px;
+    text-align: left;
+}
+.image img {
+    width:20%;
+    box-align: center;
+    padding:5px 5px;
+    border-radius: 500px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-area p {
+    background-color: rgba(247, 131, 131, 0.5);
+    text-align: center;
+    font-family:fantasy;
+    margin: auto;
+    padding-right: 350px;
+    padding-left:350px;
+}
+
+.head {
+    font-family: cursive;
+    color: #ec1241;
+}
+
+.image_des {
+    font-family: cursive;
+    color:#ec1241 ;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+} 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 700px) {
+	
+	.main-area p{
+		width: auto;
+		float: none;
+        
+	}
+	
+	.main-area p{
+		padding-right: 0;
+	}
+	
+}
+@media screen and (max-width: 480px) {
+	
+	.main-area p {
+		display: none;
+	}
+	
+}
+.footer a {
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: cornsilk;
+    
+
+}

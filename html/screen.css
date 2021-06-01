@@ -1,0 +1,285 @@
+
+
+header {
+    
+    background-image: url("../html/flower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+
+}
+BODY {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #ff004c;
+    font-family: cursive;
+    font-size: 200%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    text-align: left;
+
+
+}
+
+p {
+    color: #ff004c;
+    font-family: fantasy;
+    font-size: large;
+    border-inline: 10px;
+    padding:10px 5px;
+    
+    text-align: left;
+}
+.side_nav li {
+     list-style: none;
+     float: left;
+     margin-right: 20px;
+
+
+ }
+ .side_nav ul {
+     margin:0;
+     padding:0;
+
+
+ }
+ .side_nav {
+     margin: top 20px; 
+ }
+
+ html {
+     background-color: #f7b3b3;
+ }
+ .side_nav a {
+     display: block;
+     text-decoration: none;
+     padding: 10px 20px;
+     border: 3px solid #ff004c;
+     background-color: black;
+     margin-bottom: 20px;
+     border-bottom: none;
+ }
+
+.side_nav a {
+    color: #ff004c;
+}
+.side_nav a:hover {
+   background-color: rgb(75, 231, 223);
+}
+.side_nav {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+.image {
+    position:relative;
+    left:100px;
+    z-index:10;
+}
+.imageDes {
+    position:absolute;
+    bottom:0;
+    left:0;
+    color: whitesmoke;
+    
+    background-color: rgba(0,0,0,0.5);
+    padding:10px 20px;
+
+
+
+
+}
+
+.imageDes p {
+    color: rgb(255, 255, 255);
+}
+.image img {
+    display: block ;
+
+
+}
+.image img {
+    margin-top: 20px;
+    
+}
+
+
+.side_nav {
+    border-bottom: 3px solid black;
+}
+
+.ui_menu ul {
+    margin:0;
+    padding:0;
+
+}
+
+.ui_menu li {
+    float:left;
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+body {
+    background-color: rgb(247, 179, 179);
+}
+
+.image {
+    width: 70%;
+}
+
+
+
+.cycle-prev , .cycle-next {
+    position:absolute;
+    top: 30%;
+    background-color: rgba(0,0,0,.35);
+    color: blanchedalmond;
+    padding: 1px 10px;
+    display:block;
+    cursor:pointer;
+    font-size:130%;
+    z-index:1000;
+    opacity: 0;
+    transition:opacity .5s;
+}
+
+.cycle-next {
+    right: 365px;
+    
+    
+    
+    
+}
+.cycle-slideshow:hover .cycle-prev,
+.cycle-slideshow:hover .cycle-next {
+    opacity:1;
+}
+.cycle-pager {
+    position:absolute;
+    top:20px;
+    z-index:1003;
+    width:100%;
+    text-align :center;
+    right:200px;
+}
+
+.cycle-pager span {
+    text-indent: -9999px;
+    display: inline-block;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #FFF;
+    margin: 0 4px;
+    cursor: pointer;
+
+
+}
+
+.cycle-pager .cycle-pager-active {
+    background-color: black;
+}
+
+
+
+.html {
+    background-image: url('../html/logo_Wix.jpg');
+}
+
+.container {
+    background-image: url('../html/logo_Wix.jpg');
+}
+
+.thumnail a{
+    box-sizing: border-box;
+    
+
+
+
+
+
+}
+.thumnail img {
+    display:block;
+    transition: all .2s ease-in-out;
+}
+.thumnail:hover img {
+    opacity: .75;
+    transform: scale(.92);
+}
+
+.thumnail img:hover {
+    opacity: 1;
+    transform: scale(1) rotate(2deg);
+    box-shadow: 0 0 7px rgba(0,0,0,0.5);
+
+
+
+}
+.header {
+    padding-bottom: 50px;
+}
+
+.cor {
+    padding-bottom: 500px;
+}
+.box1, .box2, .box3 {
+    padding: 10px 10px;
+    background-color: rgba(235, 14, 14, 0.35);
+    margin: 10px 10px;
+    text-align: center;
+    font-family: fantasy;
+    
+
+}
+
+.box1 a {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: rgb(238, 25, 25);
+    color: black;
+    font-family: cursive;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.box2 a {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: rgb(238, 25, 25);
+    color: black;
+    font-family: cursive;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.box3 a{
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: rgb(238, 25, 25);
+    color: black;
+    font-family: cursive;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+.footer a {
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: cornsilk;
+
+}
